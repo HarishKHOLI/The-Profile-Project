@@ -1,6 +1,6 @@
 
 import express from "express";
-import { getProfile, updateProfile, endorseSkill } from "../controllers/profileController.js";
+import { getProfile, updateProfile, endorseSkill } from "../controller/profileController.js";
 
 const router = express.Router();
 
