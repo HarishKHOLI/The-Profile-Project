@@ -19,4 +19,6 @@ const profileSchema = new mongoose.Schema({
   darkMode: { type: Boolean, default: false }
 });
 
-export default mongoose.model("Profile", profileSchema);
+const Profile = mongoose.model("Profile", profileSchema);
+
+export {Profile};
